@@ -31,7 +31,7 @@ DEPENDENT_PACKAGES = {
     "lightning": ">=2.2,<2.4",  # Major version cap
     "pytorch_lightning": ">=2.2,<2.4",  # Major version cap, capping `lightning` does not cap `pytorch_lightning`!
     "async_timeout": ">=4.0,<5",  # Major version cap
-    "transformers[sentencepiece]": ">=4.38.0,<4.41.0",
+    "transformers[sentencepiece]": "==4.46.1",
     "accelerate": ">=0.21.0,<0.22.0",
 }
 if LITE_MODE:
